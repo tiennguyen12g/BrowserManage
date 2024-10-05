@@ -1,0 +1,55 @@
+{
+  "name": "test5",
+  "productName": "test5",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron-forge/plugin-vite": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "@types/lodash": "^4.17.7",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "electron": "32.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.30.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~4.5.4",
+    "vite": "^5.4.2"
+  },
+  "keywords": [],
+  "author": {
+    "name": "TNBT",
+    "email": "tiennguyen12g@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "classnames": "^2.5.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "lodash": "^4.17.21",
+    "node-addon-api": "^8.1.0",
+    "puppeteer": "^23.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "sass": "^1.77.8",
+    "uuidv4": "^6.2.13",
+    "zustand": "^4.5.5"
+  }
+}

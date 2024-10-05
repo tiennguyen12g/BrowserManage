@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(..)", "..\..", "{36257327-00FE-FF6D-A8D9-AFEE3537DAF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(..)", "..\..\..", "{DD240FE5-4D88-9C6C-E7C8-07717FEFF861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(..)", "..\..\..\..", "{DDCEA4D0-6852-D253-DD6E-F4F64DF52AEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\..\..\..\node_modules", "{9CAA5205-28C1-4BBC-6B1F-74C06DB555A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\..\..\..\node_modules\node-addon-api", "{8A1D95E2-79E7-A21C-D6BB-375C96275EC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\..\..\node_modules\node-addon-api\nothing.vcxproj", "{17410ABE-36F4-E44C-2C7B-7F472D546271}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyboardDetect", "keyboardDetect.vcxproj", "{88EA0B72-F96A-942F-B091-5764DEED9D3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17410ABE-36F4-E44C-2C7B-7F472D546271} = {17410ABE-36F4-E44C-2C7B-7F472D546271}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17410ABE-36F4-E44C-2C7B-7F472D546271}.Release|x64.ActiveCfg = Release|x64
+		{17410ABE-36F4-E44C-2C7B-7F472D546271}.Release|x64.Build.0 = Release|x64
+		{17410ABE-36F4-E44C-2C7B-7F472D546271}.Debug|x64.ActiveCfg = Debug|x64
+		{17410ABE-36F4-E44C-2C7B-7F472D546271}.Debug|x64.Build.0 = Debug|x64
+		{88EA0B72-F96A-942F-B091-5764DEED9D3F}.Release|x64.ActiveCfg = Release|x64
+		{88EA0B72-F96A-942F-B091-5764DEED9D3F}.Release|x64.Build.0 = Release|x64
+		{88EA0B72-F96A-942F-B091-5764DEED9D3F}.Debug|x64.ActiveCfg = Debug|x64
+		{88EA0B72-F96A-942F-B091-5764DEED9D3F}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD240FE5-4D88-9C6C-E7C8-07717FEFF861} = {36257327-00FE-FF6D-A8D9-AFEE3537DAF0}
+		{DDCEA4D0-6852-D253-DD6E-F4F64DF52AEE} = {DD240FE5-4D88-9C6C-E7C8-07717FEFF861}
+		{9CAA5205-28C1-4BBC-6B1F-74C06DB555A9} = {DDCEA4D0-6852-D253-DD6E-F4F64DF52AEE}
+		{8A1D95E2-79E7-A21C-D6BB-375C96275EC1} = {9CAA5205-28C1-4BBC-6B1F-74C06DB555A9}
+		{17410ABE-36F4-E44C-2C7B-7F472D546271} = {8A1D95E2-79E7-A21C-D6BB-375C96275EC1}
+	EndGlobalSection
+EndGlobal
